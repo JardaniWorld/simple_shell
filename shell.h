@@ -22,6 +22,7 @@
  * @status: exit status
  * @commands: double pointer to commands
  */
+
 typedef struct variables
 {
 	char **av;
