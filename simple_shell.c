@@ -60,9 +60,11 @@ int main(int argc __attribute__((unused)), char **argv, char **environment)
 			_puts("$ ");
 		vars.buffer = NULL;
 	}
+
 	if (is_pipe == 0)
 		_puts("\n");
 	free_env(vars.env);
 	free(vars.buffer);
 	exit(vars.status);
+
 }
