@@ -102,6 +102,7 @@ char *_strcat(char *strc1, char *strc2)
 		newstring[i + 1 + j] = strc2[j];
 	newstring[len1 + len2 + 1] = '\0';
 	return (newstring);
+
 }
 
 /**
