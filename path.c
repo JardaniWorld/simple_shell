@@ -1,4 +1,5 @@
 #include "shell.h"
+
 /**
  * path_execute - executes a command in the path
  * @command: full path to the command
@@ -6,6 +7,7 @@
  *
  * Return: 0 on success, 1 on failure
  */
+
 int path_execute(char *command, vars_t *vars)
 {
 	pid_t child_pid;
