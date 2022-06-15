@@ -7,6 +7,7 @@
  *
  * Return: 1 if match, 0 if not
  */
+
 unsigned int check_match(char c, const char *str)
 {
 	unsigned int i;
@@ -26,6 +27,7 @@ unsigned int check_match(char c, const char *str)
  *
  * Return: pointer to the next token or NULL
  */
+
 char *new_strtok(char *str, const char *delim)
 {
 	static char *token_start;
@@ -64,4 +66,5 @@ char *new_strtok(char *str, const char *delim)
 			next_token = NULL;
 	}
 	return (token_start);
+
 }
